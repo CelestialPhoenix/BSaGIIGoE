@@ -2,9 +2,31 @@
 //Author: PhoePhoe
 
 import crafttweaker.api.BracketHandlers;
+import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.data.StringData;
+
+#--Crushed Ore--
+var crushedOres = [
+    "aluminum",
+	"copper",
+	"iron",
+	"gold",
+	"lead",
+	"nickel",
+	"silver",
+	"uranium",
+	"zinc"
+	];
+
+for name in crushedOres {
+    val oreCrushed = BracketHandlers.getTag("create:crushed_ores/" + name);
+    val oreCreate = BracketHandlers.getItem("create:crushed_" + name + "_ore");
+
+oreCrushed.createItemTag();
+oreCrushed.addItems(oreCreate);
+}
 
 #--Ingots--
 var ingotTypes = [

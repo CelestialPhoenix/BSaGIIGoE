@@ -34,7 +34,7 @@ for name in foodTypes {
 
 furnace.removeRecipe(smeltFoods);
 }
-#cactus, kelp, sea pickle, coal smelting, HOP graphite
+#coal smelting, HOP graphite
 
 //Ingot processing
 var metalTypes = [
@@ -78,6 +78,7 @@ var miscAnnoyances = [
     "create:zinc_ingot",
 	"minecraft:green_dye",
 	"minecraft:lime_dye",
+	"minecraft:coal"
 	];
 
 for name in miscAnnoyances {

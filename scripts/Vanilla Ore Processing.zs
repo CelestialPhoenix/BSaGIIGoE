@@ -19,6 +19,7 @@ var oreMetalTypes = [
 	];
 
 var oreGemTypes = [
+    "coal",
     "diamond",
 	"emerald",
 	"lapis",
@@ -28,10 +29,12 @@ var oreGemTypes = [
 #--Machines--
 #-Blast Furnace-
 for name in oreMetalTypes {
-    val oreCrushed = BracketHandlers.getTag("forge:ingots/" + name);
+    val oreCrushed = BracketHandlers.getTag("create:crushed_ores/" + name);
     val oreIngots = BracketHandlers.getTag("forge:ingots/" + name);
     val oreNuggets = BracketHandlers.getTag("forge:nuggets/" + name);
 
+blastFurnace.removeRecipe(oreIngots.firstItem, oreCrushed);
+blastFurnace.addRecipe("smelt_crushed_"+name, oreNuggets.firstItem*2, oreCrushed, 0.0, 600);
 }
 #-Furnace-
 //No ores in furnace
