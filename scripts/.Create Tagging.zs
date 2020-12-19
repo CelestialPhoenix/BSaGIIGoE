@@ -6,6 +6,23 @@ import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.data.StringData;
 
+#--Ingots--
+var ingotTypes = [
+    "copper",
+	"brass",
+	"zinc",
+	];
+
+for name in ingotTypes {
+    val oreForge = BracketHandlers.getTag("forge:ingots/" + name);
+    val oreCreate = BracketHandlers.getItem("create:" + name + "_ingot");
+
+<tag:forge:ingots>.removeItems(oreCreate);
+<tag:forge:beacon_payment>.removeItems(oreCreate);
+<tag:create:create_ingots>.removeItems(oreCreate);
+oreForge.removeItems(oreCreate);
+}
+
 #--Nuggets--
 var nuggetTypes = [
     "copper",
@@ -16,6 +33,20 @@ var nuggetTypes = [
 for name in nuggetTypes {
     val oreForge = BracketHandlers.getTag("forge:nuggets/" + name);
     val oreCreate = BracketHandlers.getItem("create:" + name + "_nugget");
+
+<tag:forge:plates>.removeItems(oreCreate);
+oreForge.removeItems(oreCreate);
+}
+
+#--Ores--
+var oreTypes = [
+    "copper",
+	"zinc",
+	];
+
+for name in oreTypes {
+    val oreForge = BracketHandlers.getTag("forge:ores/" + name);
+    val oreCreate = BracketHandlers.getItem("create:" + name + "_ore");
 
 <tag:forge:plates>.removeItems(oreCreate);
 oreForge.removeItems(oreCreate);
