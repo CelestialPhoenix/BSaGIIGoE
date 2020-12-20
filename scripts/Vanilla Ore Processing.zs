@@ -15,11 +15,11 @@ var oreMetalTypes = [
 	"nickel",
 	"silver",
 	"uranium",
-	"zinc"
+	//"zinc"
 	];
 
 var oreGemTypes = [
-    "coal",
+    //"coal",
     "diamond",
 	"emerald",
 	"lapis",
@@ -36,6 +36,13 @@ for name in oreMetalTypes {
 blastFurnace.removeRecipe(oreIngots.firstItem, oreCrushed);
 blastFurnace.addRecipe("smelt_crushed_"+name, oreNuggets.firstItem*2, oreCrushed, 0.0, 600);
 }
+
+for name in oreGemTypes {
+    val oreGem = BracketHandlers.getTag("forge:gems/" + name);
+
+blastFurnace.removeRecipe(oreGem.firstItem);
+}
+
 #-Furnace-
 //No ores in furnace
 for name in oreGemTypes {
