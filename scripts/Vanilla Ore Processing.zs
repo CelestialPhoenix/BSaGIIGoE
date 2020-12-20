@@ -28,6 +28,9 @@ var oreGemTypes = [
 
 #--Machines--
 #-Blast Furnace-
+//netherrite
+blastFurnace.removeRecipe(<item:minecraft:netherite_scrap>);
+
 for name in oreMetalTypes {
     val oreCrushed = BracketHandlers.getTag("create:crushed_ores/" + name);
     val oreIngots = BracketHandlers.getTag("forge:ingots/" + name);

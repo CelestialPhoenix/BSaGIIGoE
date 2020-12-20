@@ -59,7 +59,7 @@ var allMetalArmour = [
 	"iron",
 	"gold",
 	//"netherite", different outputs
-	//"steel",
+	"steel",
 	];
 
 for name in allMetalArmour {
@@ -89,7 +89,7 @@ var allMetalTools = [
 	"iron",
 	"gold",
 	//"netherite", different outputs
-	//"steel",
+	"steel",
 	];
 
 for name in allMetalTools {
@@ -106,6 +106,12 @@ blastFurnace.addRecipe("smelt_pickaxe_"+name, oreNuggets.firstItem*18, smeltPick
 blastFurnace.addRecipe("smelt_axe_"+name, oreNuggets.firstItem*18, smeltAxe, 0.0, 600);
 blastFurnace.addRecipe("smelt_hoe_"+name, oreNuggets.firstItem*12, smeltHoe, 0.0, 400);
 }
+
+blastFurnace.addRecipe("smelt_sword_netherite", <tag:forge:ingots/netherite_scrap>.firstItem*8, <tag:forge:swords/netherite>, 0.0, 400);
+blastFurnace.addRecipe("smelt_shovel_netherite", <tag:forge:ingots/netherite_scrap>.firstItem*4, <tag:forge:shovels/netherite>, 0.0, 200);
+blastFurnace.addRecipe("smelt_pickaxe_netherite", <tag:forge:ingots/netherite_scrap>.firstItem*12, <tag:forge:pickaxes/netherite>, 0.0, 600);
+blastFurnace.addRecipe("smelt_axe_netherite", <tag:forge:ingots/netherite_scrap>.firstItem*12, <tag:forge:axes/netherite>, 0.0, 600);
+blastFurnace.addRecipe("smelt_hoe_netherite", <tag:forge:ingots/netherite_scrap>.firstItem*8, <tag:forge:hoes/netherite>, 0.0, 400);
 
 #-Furnace-
 //Charcoal
@@ -177,7 +183,8 @@ var miscFurnaceAnnoyances = [
 	"minecraft:green_dye",
 	"minecraft:lime_dye",
 	"minecraft:coal",
-	"minecraft:redstone"
+	"minecraft:redstone",
+	"minecraft:netherite_scrap",
 	];
 
 for name in miscFurnaceAnnoyances {
