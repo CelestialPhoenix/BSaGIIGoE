@@ -1,0 +1,33 @@
+Beware the log is long and full of spoilers....
+
+-tweak straw bales not to contain wheat [too much easy food at start]
+-hemp to drop hemp leaves, to milled into fibres and crafted into twine, then sturdy fabric
+-spiders/webs drop silky wisps, crafted into silky string, then fabric, then soft fabric
+-sheep to drop wool items a-la better than wolves
+-main ore block cannot be smelted- use explosives to break them apart
+-poor ores drop ore lumps, requires small blast furnace to smelt- new recipe for small blast furnace
+-see if changing small BF to coal/coke fuel only?
+-disable buckets
+-rework smoker as oven
+
+1.0 Push start to begin
+Added ContentTweaker 1.0.0.develop.9
+Added CraftTweaker 7.0.0.27
+Added Create 0.3
+Added FTB GUI Library 1604.1.1.26
+Added ImmersiveEngineering 4.1.2-129
+Added JEI 7.6.0.62
+Added OpenLoader 8.0.1
+ContentTweaker
+-added Silver/Gold/Platinum Redstone Motuus
+Create
+-disabled worldgen
+-new ore smelting recipes (small blast furnace)
+Vanilla
+-disabled ore smelting in furnace
+-disabled food cooking in furnace
+-added block -> ingot -> nugget smelting to furnace
+-new recipes for blast furnace, smoker
+-tweaked blast furnace recycling
+
+yes, I'm that evil Mwha-ha-ha-ha-ha-ha....
