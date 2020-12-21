@@ -1,4 +1,4 @@
-//Blood Sweat and Gears II Vanilla.zs
+//Blood Sweat and Gears II Redstone Components.zs
 //Author: PhoePhoe
 
 #loader contenttweaker

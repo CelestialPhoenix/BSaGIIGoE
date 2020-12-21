@@ -60,6 +60,16 @@ for name in nuggetTypes {
 oreForge.removeItems(oreCreate);
 }
 
+#--Machines and Components--
+<tag:create:cogwheel>.createItemTag();
+<tag:create:cogwheel>.addItems(<item:create:cogwheel>);
+
+<tag:create:cogwheel_large>.createItemTag();
+<tag:create:cogwheel_large>.addItems(<item:create:large_cogwheel>);
+
+<tag:create:shaft>.createItemTag();
+<tag:create:shaft>.addItems(<item:create:shaft>);
+
 #--Ores--
 var oreTypes = [
     "copper",

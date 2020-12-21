@@ -13,9 +13,14 @@ import crafttweaker.api.data.StringData;
 <tag:forge:gems/coal>.addItems(<item:minecraft:coal>);
 <tag:forge:gems>.addItems(<item:minecraft:coal>);
 
+//netherite
 <tag:forge:ingots/netherite_scrap>.createItemTag();
 <tag:forge:ingots/netherite_scrap>.addItems(<item:minecraft:netherite_scrap>);
 <tag:forge:ingots>.addItems(<item:minecraft:netherite_scrap>);
+
+//string
+<tag:forge:strings/silk>.createItemTag();
+<tag:forge:strings/silk>.addItems(<item:minecraft:string>);
 
 #--Tools/Weapons/Armour--
 //armours
