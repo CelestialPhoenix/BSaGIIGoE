@@ -33,7 +33,7 @@ craftingTable.addShaped("hemp_rope", <tag:forge:ropes/hemp>.firstItem, [
     [<tag:forge:strings/hemp>, <tag:forge:strings/hemp>]
 ]);
 
-craftingTable.addShaped("hemp_fabric", <tag:forge:ropes/hemp>.firstItem, [
+craftingTable.addShaped("hemp_fabric", <tag:forge:fabrics/hemp>.firstItem, [
     [<tag:forge:strings/hemp>, <tag:forge:strings/hemp>, <tag:forge:strings/hemp>],
     [<tag:forge:strings/hemp>, <tag:forge:strings/hemp>, <tag:forge:strings/hemp>],
     [<tag:forge:strings/hemp>, <tag:forge:strings/hemp>, <tag:forge:strings/hemp>]
@@ -52,7 +52,7 @@ craftingTable.addShaped("silk_rope", <tag:forge:ropes/silk>.firstItem, [
     [<tag:forge:strings/silk>, <tag:forge:strings/silk>]
 ]);
 
-craftingTable.addShaped("silk_fabric", <tag:forge:ropes/silk>.firstItem, [
+craftingTable.addShaped("silk_fabric", <tag:forge:fabrics/silk>.firstItem, [
     [<tag:forge:strings/silk>, <tag:forge:strings/silk>, <tag:forge:strings/silk>],
     [<tag:forge:strings/silk>, <tag:forge:strings/silk>, <tag:forge:strings/silk>],
     [<tag:forge:strings/silk>, <tag:forge:strings/silk>, <tag:forge:strings/silk>]

@@ -131,3 +131,33 @@ oreHoe.addItems(oreVanillaHoe);
 <tag:forge:axes/wood>.addItems(<item:minecraft:wooden_axe>);
 <tag:forge:hoes/wood>.createItemTag();
 <tag:forge:hoes/wood>.addItems(<item:minecraft:wooden_hoe>);
+
+#--Wood--
+var woodTypesOverworld = [
+    "oak",
+	"spruce",
+	"birch",
+	"jungle",
+	"acacia",
+	"dark_oak"
+	];
+
+for name in woodTypesOverworld {
+    val tagLog = BracketHandlers.getTag("forge:logs/" + name);
+    val itemLog = BracketHandlers.getItem("minecraft:" + name + "_log");
+tagLog.createItemTag();
+tagLog.addItems(itemLog);
+}
+
+var woodTypesNether = [
+
+	"crimson",
+	"warped"
+	];
+
+for name in woodTypesNether {
+    val tagLog = BracketHandlers.getTag("forge:logs/" + name);
+    val itemLog = BracketHandlers.getItem("minecraft:" + name + "_stem");
+tagLog.createItemTag();
+tagLog.addItems(itemLog);
+}

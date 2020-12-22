@@ -7,6 +7,10 @@ import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.data.StringData;
 
+#--Materials--
+
+#Treated Wood
+<tag:forge:wood/preserved>.addItems(<item:immersiveengineering:treated_wood_horizontal>);
 
 #--Tools/Weapons/Armour--
 //armours

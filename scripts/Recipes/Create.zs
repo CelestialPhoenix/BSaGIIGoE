@@ -8,10 +8,10 @@ import crafttweaker.api.item.IItemStack;
 */
 
 #--Shaft-
-craftingTable.removeRecipe(<item:create:shaft>);
+craftingTable.removeRecipe(<item:create:shaft>*4);
 craftingTable.addShaped("shaft_wood_hemp", <item:create:shaft>, [
-    [<tag:forge:treated_wood>],
+    [<tag:forge:wood/preserved>],
     [<tag:forge:rope>],
-    [<tag:forge:treated_wood>]
+    [<tag:forge:wood/preserved>]
 ]);
 //add extra for better woods
