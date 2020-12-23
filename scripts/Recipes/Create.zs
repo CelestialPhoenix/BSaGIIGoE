@@ -10,6 +10,14 @@ import crafttweaker.api.item.IItemStack;
 -Redstone intellegence requires brain
 */
 
+#--Basin--
+craftingTable.removeRecipe(<item:create:basin>);
+craftingTable.addShaped("create_basin", <item:create:basin>, [
+    [<tag:forge:plates/iron>, <item:minecraft:air>, <tag:forge:plates/iron>],
+    [<tag:forge:plates/iron>, <item:minecraft:air>, <tag:forge:plates/iron>],
+    [<tag:forge:ingots/iron>, <tag:forge:ingots/iron>, <tag:forge:ingots/iron>],
+]);
+
 #--Belt (drivebalt/mechanical belt)--
 craftingTable.removeRecipe(<item:create:belt_connector>);
 craftingTable.addShaped("create_belt_connector", <item:create:belt_connector>*3, [
@@ -18,6 +26,13 @@ craftingTable.addShaped("create_belt_connector", <item:create:belt_connector>*3,
 ]);
 //add recipes for rubber belting and treated leather
 
+#--Blaze Burner--
+craftingTable.removeRecipe(<item:create:empty_blaze_burner>);
+craftingTable.addShaped("create_empty_blaze_burner", <item:create:empty_blaze_burner>, [
+    [<tag:forge:bars/iron>, <item:minecraft:air>, <tag:forge:bars/iron>],
+    [<tag:forge:bars/iron>, <item:minecraft:air>, <tag:forge:bars/iron>],
+    [<tag:forge:plates/iron>, <tag:forge:plates/iron>, <tag:forge:plates/iron>],
+]);
 
 #--Chain Drive--
 craftingTable.removeRecipe(<item:create:encased_chain_drive>);
@@ -33,6 +48,14 @@ craftingTable.addShaped("create_adjustable_chain_gearshift", <item:create:adjust
     [<item:minecraft:air>, <tag:forge:motuus/gold>, <item:minecraft:air>],
     [<item:create:electron_tube>, <item:create:encased_chain_drive>, <item:create:electron_tube>],
     [<item:minecraft:air>, <item:immersiveengineering:component_iron>, <item:minecraft:air>]
+]);
+
+#--Chute--
+craftingTable.removeRecipe(<item:create:chute>);
+craftingTable.addShaped("create_chute", <item:create:chute>, [
+    [<tag:forge:plates/iron>, <item:minecraft:air>, <tag:forge:plates/iron>],
+    [<tag:forge:plates/iron>, <item:minecraft:air>, <tag:forge:plates/iron>],
+    [<tag:forge:plates/iron>, <item:minecraft:air>, <tag:forge:plates/iron>]
 ]);
 
 #--Cogwheel--
@@ -67,6 +90,13 @@ craftingTable.addShaped("create_cuckoo_clock", <item:create:cuckoo_clock>, [
     [<item:minecraft:air>, <tag:forge:woodslab/preserved>, <item:minecraft:air>],
     [<tag:forge:woodslab/preserved>, <item:minecraft:clock>, <tag:forge:woodslab/preserved>],
     [<tag:forge:woodslab/preserved>, <tag:create:cogwheel>, <tag:forge:woodslab/preserved>]
+]);
+
+#--Depot--
+craftingTable.removeRecipe(<item:create:depot>);
+craftingTable.addShaped("create_depot", <item:create:depot>, [
+    [<tag:forge:chests/wooden>],
+    [<tag:create:casings/wooden>]
 ]);
 
 #--Encased Fan--

@@ -13,6 +13,10 @@ import crafttweaker.api.data.StringData;
 <tag:forge:gems/coal>.addItems(<item:minecraft:coal>);
 <tag:forge:gems>.addItems(<item:minecraft:coal>);
 
+//iron bars
+<tag:forge:bars/iron>.createItemTag();
+<tag:forge:bars/iron>.addItems(<item:minecraft:iron_bars>);
+
 //netherite
 <tag:forge:ingots/netherite_scrap>.createItemTag();
 <tag:forge:ingots/netherite_scrap>.addItems(<item:minecraft:netherite_scrap>);
