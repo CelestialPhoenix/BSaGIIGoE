@@ -78,6 +78,8 @@ craftingTable.addShaped("create_gearshift", <item:create:gearshift>, [
     [<item:minecraft:air>, <tag:create:shaft>, <item:minecraft:air>]
 ]);
 
+#--Gearshift Sequenced--
+//requires brain?
 
 #--Nozzle--
 
@@ -89,6 +91,18 @@ craftingTable.addShaped("shaft_wood_hemp", <item:create:shaft>, [
     [<tag:forge:wood/preserved>]
 ]);
 //add extra for better woods
+
+#--Schematic Table--
+#--Schematicannon--
+//requires brain
+
+#--Turntable--
+craftingTable.removeRecipe(<item:create:turntable>);
+craftingTable.addShaped("create_turntable", <item:create:turntable>, [
+    [<tag:forge:woodslab/preserved>, <tag:forge:woodslab/preserved>, <tag:forge:woodslab/preserved>],
+    [<tag:create:cogwheel>, <tag:create:shaft>, <tag:create:cogwheel>],
+    [<item:minecraft:air>, <tag:create:shaft>, <item:minecraft:air>]
+]);
 
 #--Waterwheel--
 craftingTable.removeRecipe(<item:create:water_wheel>);
