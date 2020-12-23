@@ -10,3 +10,4 @@ import crafttweaker.api.data.StringData;
 
 //preserved
 <tag:forge:wood/preserved>.createItemTag();
+<tag:forge:woodslab/preserved>.createItemTag();

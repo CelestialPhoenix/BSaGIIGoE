@@ -70,6 +70,12 @@ oreForge.removeItems(oreCreate);
 <tag:create:shaft>.createItemTag();
 <tag:create:shaft>.addItems(<item:create:shaft>);
 
+<tag:forge:rotors/iron>.createItemTag();
+<tag:forge:rotors/iron>.addItems(<item:create:propeller>);
+
+<tag:create:casings/wooden>.createItemTag();
+<tag:create:casings/wooden>.addItems(<item:create:andesite_casing>);
+
 #--Ores--
 var oreTypes = [
     "copper",
