@@ -78,8 +78,16 @@ craftingTable.addShaped("create_gearshift", <item:create:gearshift>, [
     [<item:minecraft:air>, <tag:create:shaft>, <item:minecraft:air>]
 ]);
 
-#--Gearshift Sequenced--
+#--Gearshift Sequenced--xxx
 //requires brain?
+
+#--Handcrank--
+craftingTable.removeRecipe(<item:create:hand_crank>);
+craftingTable.addShaped("create_crank", <item:create:hand_crank>, [
+    [<tag:create:shaft>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:forge:woodslab/preserved>, <tag:forge:woodslab/preserved>, <tag:forge:woodslab/preserved>],
+    [<item:minecraft:air>, <tag:forge:rope>, <tag:forge:rods/treated_wood>]
+]);
 
 #--Nozzle--
 
