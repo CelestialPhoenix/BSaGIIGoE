@@ -59,6 +59,14 @@ craftingTable.addShaped("create_clutch", <item:create:clutch>, [
     [<item:minecraft:air>, <tag:create:shaft>, <item:minecraft:air>]
 ]);
 
+#--Cuckoo Clock--
+craftingTable.removeRecipe(<item:create:cuckoo_clock>);
+craftingTable.addShaped("create_cuckoo_clock", <item:create:cuckoo_clock>, [
+    [<item:minecraft:air>, <tag:forge:woodslab/preserved>, <item:minecraft:air>],
+    [<tag:forge:woodslab/preserved>, <item:minecraft:clock>, <tag:forge:woodslab/preserved>],
+    [<tag:forge:woodslab/preserved>, <tag:create:cogwheel>, <tag:forge:woodslab/preserved>]
+]);
+
 #--Encased Fan--
 craftingTable.removeRecipe(<item:create:encased_fan>);
 craftingTable.addShaped("create_encased_fan", <item:create:encased_fan>, [
@@ -88,6 +96,8 @@ craftingTable.addShaped("create_crank", <item:create:hand_crank>, [
     [<tag:forge:woodslab/preserved>, <tag:forge:woodslab/preserved>, <tag:forge:woodslab/preserved>],
     [<item:minecraft:air>, <tag:forge:rope>, <tag:forge:rods/treated_wood>]
 ]);
+
+
 
 #--Nozzle--
 
