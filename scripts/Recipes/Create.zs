@@ -59,6 +59,8 @@ craftingTable.addShaped("create_clutch", <item:create:clutch>, [
     [<item:minecraft:air>, <tag:create:shaft>, <item:minecraft:air>]
 ]);
 
+#--Crushing Wheel--
+
 #--Cuckoo Clock--
 craftingTable.removeRecipe(<item:create:cuckoo_clock>);
 craftingTable.addShaped("create_cuckoo_clock", <item:create:cuckoo_clock>, [
@@ -71,7 +73,7 @@ craftingTable.addShaped("create_cuckoo_clock", <item:create:cuckoo_clock>, [
 craftingTable.removeRecipe(<item:create:encased_fan>);
 craftingTable.addShaped("create_encased_fan", <item:create:encased_fan>, [
     [<item:minecraft:air>, <tag:create:shaft>, <item:minecraft:air>],
-    [<tag:create:cogwheel>, <item:create:andesite_casing>, <tag:create:cogwheel_large>],
+    [<tag:create:cogwheel>, <tag:create:casings/wooden>, <tag:create:cogwheel_large>],
     [<item:minecraft:air>, <tag:forge:rotors/iron>, <item:minecraft:air>]
 ]);
 
@@ -82,7 +84,7 @@ craftingTable.addShaped("create_encased_fan", <item:create:encased_fan>, [
 craftingTable.removeRecipe(<item:create:gearshift>);
 craftingTable.addShaped("create_gearshift", <item:create:gearshift>, [
     [<item:minecraft:air>, <tag:forge:motuus/gold>, <item:minecraft:air>],
-    [<tag:create:cogwheel>, <item:create:andesite_casing>, <tag:create:cogwheel>],
+    [<tag:create:cogwheel>, <tag:create:casings/wooden>, <tag:create:cogwheel>],
     [<item:minecraft:air>, <tag:create:shaft>, <item:minecraft:air>]
 ]);
 
@@ -97,7 +99,29 @@ craftingTable.addShaped("create_crank", <item:create:hand_crank>, [
     [<item:minecraft:air>, <tag:forge:rope>, <tag:forge:rods/treated_wood>]
 ]);
 
+#--Mechanical Mixer--
+craftingTable.removeRecipe(<item:create:mechanical_mixer>);
+craftingTable.addShaped("create_mechanical_mixer", <item:create:mechanical_mixer>, [
+    [<item:minecraft:air>, <tag:create:piston_extension>, <item:minecraft:air>],
+    [<tag:create:cogwheel>, <tag:create:casings/wooden>, <tag:create:cogwheel>],
+    [<item:minecraft:air>, <item:create:whisk>, <item:minecraft:air>]
+]);
 
+#--Mechanical Press--
+craftingTable.removeRecipe(<item:create:mechanical_press>);
+craftingTable.addShaped("create_mechanical_press", <item:create:mechanical_press>, [
+    [<item:minecraft:air>, <tag:create:shaft>, <item:minecraft:air>],
+    [<tag:create:cogwheel>, <tag:create:casings/wooden>, <tag:create:cogwheel>],
+    [<item:minecraft:air>, <tag:forge:storage_blocks/iron>, <item:minecraft:air>]
+]);
+
+#--Millstone--
+craftingTable.removeRecipe(<item:create:millstone>);
+craftingTable.addShaped("create_millstone", <item:create:millstone>, [
+    [<item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>],
+    [<item:minecraft:smooth_stone_slab>, <item:minecraft:smooth_stone_slab>, <item:minecraft:smooth_stone_slab>],
+    [<item:minecraft:smooth_stone>, <tag:create:cogwheel>, <item:minecraft:smooth_stone>]
+]);
 
 #--Nozzle--
 

@@ -76,6 +76,9 @@ oreForge.removeItems(oreCreate);
 <tag:create:casings/wooden>.createItemTag();
 <tag:create:casings/wooden>.addItems(<item:create:andesite_casing>);
 
+<tag:create:piston_extension>.createItemTag();
+<tag:create:piston_extension>.addItems(<item:create:piston_extension_pole>);
+
 #--Ores--
 var oreTypes = [
     "copper",
