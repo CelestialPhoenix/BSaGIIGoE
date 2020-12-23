@@ -34,6 +34,28 @@ craftingTable.addShaped("create_empty_blaze_burner", <item:create:empty_blaze_bu
     [<tag:forge:plates/iron>, <tag:forge:plates/iron>, <tag:forge:plates/iron>],
 ]);
 
+#--Bracket (wood)--
+craftingTable.removeRecipe(<item:create:wooden_bracket>);
+craftingTable.addShaped("create_wooden_bracket", <item:create:wooden_bracket>*2, [
+    [<tag:forge:rods/treated_wood>, <tag:forge:rods/treated_wood>, <tag:forge:rods/treated_wood>],
+    [<item:minecraft:air>, <tag:forge:rods/treated_wood>, <item:minecraft:air>],
+    [<tag:forge:woodslab/preserved>, <tag:forge:woodslab/preserved>, <tag:forge:woodslab/preserved>],
+]);
+//add one for better wood
+
+#--Bracket (metal)--
+craftingTable.removeRecipe(<item:create:metal_bracket>);
+craftingTable.addShaped("create_metal_bracket", <item:create:metal_bracket>*2, [
+    [<tag:forge:rods/iron>, <tag:forge:rods/iron>, <tag:forge:rods/iron>],
+    [<item:minecraft:air>, <tag:forge:rods/iron>, <item:minecraft:air>],
+    [<tag:forge:plates/iron>, <tag:forge:plates/iron>, <tag:forge:plates/iron>],
+]);
+craftingTable.addShaped("create_metal_bracket3", <item:create:metal_bracket>*3, [
+    [<tag:forge:rods/steel>, <tag:forge:rods/steel>, <tag:forge:rods/steel>],
+    [<item:minecraft:air>, <tag:forge:rods/steel>, <item:minecraft:air>],
+    [<tag:forge:plates/steel>, <tag:forge:plates/steel>, <tag:forge:plates/steel>],
+]);
+
 #--Chain Drive--
 craftingTable.removeRecipe(<item:create:encased_chain_drive>);
 craftingTable.addShaped("create_chaindrive", <item:create:encased_chain_drive>, [
@@ -153,7 +175,7 @@ craftingTable.addShaped("create_millstone", <item:create:millstone>, [
     [<item:minecraft:smooth_stone>, <tag:create:cogwheel>, <item:minecraft:smooth_stone>]
 ]);
 
-#--Nozzle--
+#--Nozzle--xxx
 
 #--Shaft--
 craftingTable.removeRecipe(<item:create:shaft>*4);
@@ -164,9 +186,14 @@ craftingTable.addShaped("shaft_wood_hemp", <item:create:shaft>, [
 ]);
 //add extra for better woods
 
-#--Schematic Table--
-#--Schematicannon--
+#--Schematic Table--xxx
+#--Schematicannon--xxx
 //requires brain
+
+#--Speedometer--
+//this recipe is ok
+#--Stressometer--
+//this recipe is ok
 
 #--Turntable--
 craftingTable.removeRecipe(<item:create:turntable>);
