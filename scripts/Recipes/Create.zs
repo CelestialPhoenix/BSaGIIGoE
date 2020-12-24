@@ -104,7 +104,9 @@ craftingTable.addShaped("create_clutch", <item:create:clutch>, [
     [<item:minecraft:air>, <tag:create:shaft>, <item:minecraft:air>]
 ]);
 
-#--Crushing Wheel--
+#--Copper Valve Handle--xxx
+
+#--Crushing Wheel--xxx
 
 #--Cuckoo Clock--
 craftingTable.removeRecipe(<item:create:cuckoo_clock>);
@@ -129,8 +131,25 @@ craftingTable.addShaped("create_encased_fan", <item:create:encased_fan>, [
     [<item:minecraft:air>, <tag:forge:rotors/iron>, <item:minecraft:air>]
 ]);
 
+#--Fluid Pipe--
+craftingTable.removeRecipe(<item:create:fluid_pipe>);
+furnace.addRecipe("smelt_clay_pipe", <item:create:fluid_pipe>, <item:contenttweaker:clay_pipe>, 0.0, 200);
+
+#--Fluid Pipe (smart)--xxx
+
+#--Fluid Tank--
+craftingTable.removeRecipe(<item:create:fluid_tank>);
+craftingTable.addShaped("create_fluid_tank", <item:create:fluid_tank>, [
+    [<tag:forge:plates/ceramic>, <tag:forge:glass_panes>, <tag:forge:plates/ceramic>],
+    [<tag:forge:plates/ceramic>, <tag:forge:glass_panes>, <tag:forge:plates/ceramic>],
+    [<tag:forge:plates/ceramic>, <tag:forge:glass_panes>, <tag:forge:plates/ceramic>]
+]);
+
+#--Fluid Valve--
+//this recipe is ok
+
 #--Gearbox--
-#stock recipe is ok
+//this recipe is ok
 
 #--Gearshift--
 craftingTable.removeRecipe(<item:create:gearshift>);
@@ -174,6 +193,9 @@ craftingTable.addShaped("create_millstone", <item:create:millstone>, [
     [<item:minecraft:smooth_stone_slab>, <item:minecraft:smooth_stone_slab>, <item:minecraft:smooth_stone_slab>],
     [<item:minecraft:smooth_stone>, <tag:create:cogwheel>, <item:minecraft:smooth_stone>]
 ]);
+
+#--Mechanical Pump--
+//this recipe is ok
 
 #--Nozzle--xxx
 

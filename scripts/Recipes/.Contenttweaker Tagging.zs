@@ -7,6 +7,13 @@ import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.data.StringData;
 
+#--Clay Stuff--
+<tag:forge:plates/clay>.createItemTag();
+<tag:forge:plates/clay>.addItems(<item:contenttweaker:clay_plate>);
+
+<tag:forge:plates/ceramic>.createItemTag();
+<tag:forge:plates/ceramic>.addItems(<item:contenttweaker:ceramic_plate>);
+
 #--Redstone Motuus--
 <tag:forge:motuus>.createItemTag();
 
