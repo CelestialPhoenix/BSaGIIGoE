@@ -170,6 +170,21 @@ craftingTable.addShaped("create_crank", <item:create:hand_crank>, [
     [<item:minecraft:air>, <tag:forge:rope>, <tag:forge:rods/treated_wood>]
 ]);
 
+#--Hose Pulley--
+craftingTable.removeRecipe(<item:create:hose_pulley>);
+craftingTable.addShaped("create_hose_pulley", <item:create:hose_pulley>, [
+    [<item:minecraft:air>, <tag:create:casings/copper>, <item:minecraft:air>],
+    [<tag:create:shaft>, <item:contenttweaker:hosereel>, <item:create:fluid_pipe>],
+    [<item:minecraft:air>, <item:contenttweaker:hosereel>, <item:minecraft:air>]
+]);
+
+#--Item Drain--
+craftingTable.removeRecipe(<item:create:item_drain>);
+craftingTable.addShaped("create_item_drain", <item:create:item_drain>, [
+    [<tag:forge:plates/ceramic>, <tag:forge:bars/iron>, <tag:forge:plates/ceramic>],
+    [<tag:forge:plates/ceramic>, <item:minecraft:air>, <tag:forge:plates/ceramic>]
+]);
+
 #--Mechanical Mixer--
 craftingTable.removeRecipe(<item:create:mechanical_mixer>);
 craftingTable.addShaped("create_mechanical_mixer", <item:create:mechanical_mixer>, [
@@ -199,6 +214,14 @@ craftingTable.addShaped("create_millstone", <item:create:millstone>, [
 
 #--Nozzle--xxx
 
+#--Portable Fluid Interface--
+craftingTable.removeRecipe(<item:create:portable_fluid_interface>);
+craftingTable.addShaped("create_fluid_interface", <item:create:portable_fluid_interface>, [
+    [<item:create:chute>],
+    [<item:create:fluid_pipe>],
+    [<item:create:fluid_tank>]
+]);
+
 #--Shaft--
 craftingTable.removeRecipe(<item:create:shaft>*4);
 craftingTable.addShaped("shaft_wood_hemp", <item:create:shaft>, [
@@ -214,6 +237,15 @@ craftingTable.addShaped("shaft_wood_hemp", <item:create:shaft>, [
 
 #--Speedometer--
 //this recipe is ok
+
+#--Spout--
+craftingTable.removeRecipe(<item:create:spout>);
+craftingTable.addShaped("create_spout", <item:create:spout>, [
+    [<tag:forge:plates/ceramic>, <item:create:fluid_tank>, <tag:forge:plates/ceramic>],
+    [<tag:forge:plates/ceramic>, <item:minecraft:air>, <tag:forge:plates/ceramic>],
+    [<item:minecraft:air>, <tag:forge:plates/ceramic>, <tag:forge:plates/ceramic>]
+]);
+
 #--Stressometer--
 //this recipe is ok
 
