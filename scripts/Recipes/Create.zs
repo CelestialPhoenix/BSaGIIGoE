@@ -193,6 +193,16 @@ craftingTable.addShaped("create_mechanical_mixer", <item:create:mechanical_mixer
     [<item:minecraft:air>, <item:create:whisk>, <item:minecraft:air>]
 ]);
 
+#--Mechanical Piston--
+craftingTable.removeRecipe(<item:create:mechanical_piston>);
+craftingTable.addShaped("create_mechanical_piston", <item:create:mechanical_piston>, [
+    [<tag:forge:woodslab/preserved>, <tag:forge:woodslab/preserved>, <tag:forge:woodslab/preserved>],
+    [<tag:forge:gears/iron>, <tag:create:casings/wooden>, <tag:forge:gears/iron>],
+    [<item:minecraft:air>, <item:create:piston_extension_pole>, <item:minecraft:air>]
+]);
+#--Mechanical Piston (sticky)--
+//this recipe is ok
+
 #--Mechanical Press--
 craftingTable.removeRecipe(<item:create:mechanical_press>);
 craftingTable.addShaped("create_mechanical_press", <item:create:mechanical_press>, [
@@ -213,6 +223,15 @@ craftingTable.addShaped("create_millstone", <item:create:millstone>, [
 //this recipe is ok
 
 #--Nozzle--xxx
+
+#--Piston Extension Pole
+craftingTable.removeRecipe(<item:create:piston_extension_pole>);
+craftingTable.addShaped("create_piston_extension_pole", <item:create:piston_extension_pole>*2, [
+    [<tag:forge:rods/iron>, <tag:forge:wood/preserved>, <item:minecraft:air>],
+    [<tag:forge:rods/iron>, <tag:forge:wood/preserved>, <tag:forge:rope>],
+    [<tag:forge:rods/iron>, <tag:forge:wood/preserved>, <item:minecraft:air>]
+]);
+//add extra for better materials
 
 #--Portable Fluid Interface--
 craftingTable.removeRecipe(<item:create:portable_fluid_interface>);
