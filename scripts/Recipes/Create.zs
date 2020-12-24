@@ -262,7 +262,7 @@ craftingTable.removeRecipe(<item:create:spout>);
 craftingTable.addShaped("create_spout", <item:create:spout>, [
     [<tag:forge:plates/ceramic>, <item:create:fluid_tank>, <tag:forge:plates/ceramic>],
     [<tag:forge:plates/ceramic>, <item:minecraft:air>, <tag:forge:plates/ceramic>],
-    [<item:minecraft:air>, <tag:forge:plates/ceramic>, <tag:forge:plates/ceramic>]
+    [<item:minecraft:air>, <tag:forge:plates/ceramic>, <item:minecraft:air>]
 ]);
 
 #--Stressometer--
