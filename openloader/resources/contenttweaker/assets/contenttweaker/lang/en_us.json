@@ -1,4 +1,10 @@
 {
+"item.contenttweaker.clay_pipe": "Clay Pipe",
+"item.contenttweaker.clay_tile": "Clay Tile",
+"item.contenttweaker.ceramic_tile": "Ceramic Tile",
+
+"item.contenttweaker.hosereel": "Flexible Hose",
+
 "item.contenttweaker.silver_motuus": "Silver Redstone Motuus",
 "item.contenttweaker.gold_motuus": "Golden Redstone Motuus",
 "item.contenttweaker.platinum_motuus": "Platinum Redstone Motuus",
@@ -10,4 +16,8 @@
 "item.contenttweaker.hemp_rope": "Hemp Rope",
 "item.contenttweaker.silk_fabric": "Silk Fabric",
 "item.contenttweaker.hemp_fabric": "Hemp Fabric",
+"block.contenttweaker.hemp_fabric_block": "Stack of Hemp Fabric",
+"block.contenttweaker.silk_fabric_block": "Stack of Silk Fabric",
+"block.contenttweaker.hemp_rope_block": "Coil of Hemp Rope",
+"block.contenttweaker.silk_rope_block": "Coil of Silk Rope"
 }

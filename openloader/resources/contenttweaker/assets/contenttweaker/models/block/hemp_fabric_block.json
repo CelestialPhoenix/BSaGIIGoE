@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "contenttweaker:block/hemp_fabric_block_end",
+        "side": "contenttweaker:block/hemp_fabric_block_sides"
+    }
+}

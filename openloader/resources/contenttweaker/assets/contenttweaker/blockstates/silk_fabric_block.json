@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "contenttweaker:block/silk_fabric_block" },
+        "axis=z":   { "model": "contenttweaker:block/silk_fabric_block", "x": 90 },
+        "axis=x":   { "model": "contenttweaker:block/silk_fabric_block", "x": 90, "y": 90 }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "contenttweaker:block/hemp_rope_block" },
+        "axis=z":   { "model": "contenttweaker:block/hemp_rope_block", "x": 90 },
+        "axis=x":   { "model": "contenttweaker:block/hemp_rope_block", "x": 90, "y": 90 }
+    }
+}
